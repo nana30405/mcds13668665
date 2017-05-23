@@ -1,0 +1,20 @@
+doctpe
+html(lang="es")
+	head
+		meta(charsete="utf-8")
+		title condicional
+	body
+		h1 condicional
+		hr
+		-var edad = 17
+		-var genero = 'masculino'
+		-var persona = {alto: 180, peso: 120,genero:'femenino'}
+		article
+			if(edad>=18)
+				h2 usted no puede votar
+				p='Genero:'+persona.genero
+				p='peso:'+persona.peso+'kgs'
+				p='Estatura:'+persona.alto+'cms'
+			else
+				h2 usted no pued votar
+

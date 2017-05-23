@@ -1,0 +1,21 @@
+doctpe
+html(lang="es")
+	head
+		meta(charsete="utf-8")
+		title codigo
+		body 
+		h1 código
+		hr
+	//-sin bufer
+	menu 
+		ul
+			-for(var i =1; i<=20;i++)
+				li Elemento #(i)
+	//-con bufer
+	- var contenido = '<strong>lorem ipsum</strong>dolor <em> sit amet</em>'
+	p=contenido
+	br
+		p!=contenido
+
+
+	
