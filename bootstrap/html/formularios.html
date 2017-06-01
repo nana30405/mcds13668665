@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>formularios (PUG- BOTTSTRAP)</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+  </head>
+  <body>
+    <main class="container">
+      <section class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <fieldset>
+            <legend>
+              <h3 class="text-muted"><i class="glyphicon glyphicon-user"></i>&nbsp; formulario de Login </h3>
+            </legend>
+            <form method="post">
+              <div class="form-group">
+                <imput class="form-control" name="email" type="email" placeholder="correo electronico" required></imput>
+              </div>
+              <div class="form-group">
+                <imput class="form-control" name="password" type="password" placeholder="password" required></imput>
+              </div>
+              <div class="form-group">
+                <input class="form-control btn btn-info" type="submit" value="iniciar Sesion">
+              </div>
+            </form>
+          </fieldset>
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-md-6 col-md-offset-3"></div>
+        <fieldeset>
+          <legen>
+            <h3 class="text-muted"><i class="glyphicon glypicon-list"></i>&nbsp; formulario de Registro</h3>
+          </legen>
+          <form method="post">
+            <div class="form-group">
+              <imput class="form-control" type="text" name="name" placeholder="Nombre Completo" required></imput>
+            </div>
+            <div class="form-group">
+              <select class="form-control" name="gender" required>
+                <option>seleccione genero...</option>
+                <option value="F">femenino</option>
+                <option value="M">masculino</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <imput class="form-control" type="date" name="date" placeholder="fecha Nacimiento" required></imput>
+            </div>
+            <div class="form-group">
+              <label for="s4"></label>
+              <imput type="checkbox" name="sport" value="Soccer">&nbsp;Futboll</imput><br>
+              <label for="s4"></label>
+              <imput type="checkbox" name="sport" value="Soccer">&nbsp;Beisbol</imput><br>
+              <label for="s4"></label>
+              <imput type="checkbox" name="sport" value="Soccer">&nbsp;Tenis</imput>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="description" placeholder="descripcion" row="6" required></textarea>
+            </div>
+            <div class="form-group">
+              <imput class="form-control btn btn-info" type="submit" value="registrar Datos"></imput>
+            </div>
+            <div class="form-group">
+              <imput class="fom-control btn btn-default" type="reset" value="limpiar datos"></imput>
+            </div>
+          </form>
+        </fieldeset>
+      </section>
+    </main>
+  </body>
+</html>
