@@ -1,0 +1,11 @@
+body {
+  font-family: Arial verdana Serif; }
+
+h1 {
+  background-color: #0a0;
+  border-radius: 30%;
+  color: #fff;
+  height: 40px;
+  padding: 14px;
+  text-align: center;
+  width: 800px; }
